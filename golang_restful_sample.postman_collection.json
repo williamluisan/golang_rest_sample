@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "0efd79d3-46c3-4e7a-bff1-a16d07509ead",
+		"name": "golang_restful_sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Course",
+			"item": [
+				{
+					"name": "Get Course",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/course",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"course"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Course",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "ID",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "Test",
+									"type": "text"
+								},
+								{
+									"key": "Category",
+									"value": "Ninjutsu",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/course",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"course"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Course",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Kagebunshin 2",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Taijutsu Genjutsu",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/course/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"course",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Teacher",
+			"item": [
+				{
+					"name": "Get Teacher",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/teacher",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"teacher"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Teacher",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "ID",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "Speciality",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/teacher",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"teacher"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Teacher",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "test a",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "test a",
+									"type": "text"
+								},
+								{
+									"key": "speciality",
+									"value": "test a",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/teacher/7",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"teacher",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Student",
+			"item": [
+				{
+					"name": "Get Student",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/student",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Student",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "ID",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "Age",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/student",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Student",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "aaa",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "aaa",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/student/4",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"student",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:8080"
+		}
+	]
+}
