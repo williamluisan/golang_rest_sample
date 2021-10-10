@@ -1,5 +1,5 @@
 ## Description
-Just a very simple example for RESTful API with GO lang.
+Just a very simple example about RESTful API with GO lang.
 
 ## Breif explanation to try
 1. `go run .`
